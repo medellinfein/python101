@@ -1,0 +1,17 @@
+syntax: glob
+*.orig
+*.pyc
+*.pdf
+*.wpr
+*.wpu
+.DS_Store
+build
+_static
+_templates
+make.bat
+Makefile
+cover
+code
+edits
+book_maker
+backer_info

@@ -14,5 +14,5 @@ my_dict["name"]
 "name" in my_dict  # returns True
 "state" in my_dict  # returns False
 
-# get a list of the keys in a dict
+# get a view of the keys in a dict
 my_dict.keys()
