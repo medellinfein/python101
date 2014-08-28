@@ -1,7 +1,8 @@
 import os
-import Queue
 import threading
 import urllib.request
+
+from queue import Queue
 
 class Downloader(threading.Thread):
     """Threaded File Downloader"""
@@ -37,7 +38,7 @@ def main(urls):
     """
     Run the program
     """
-    queue = Queue.Queue()
+    queue = Queue()
     
     # create a thread pool and give them a queue
     for i in range(5):
